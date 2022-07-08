@@ -1,0 +1,83 @@
+html, body {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 62.5%;
+    background-color: #f1f1f1;
+    color: #484848;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex: 1 0 auto;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho,
+.rodape {
+    background-color: #007e9a;
+    color: #ffffff;
+    padding: 25px 35px;
+    /* overflow: hidden;
+    position: fixed;
+    width: 100%; */
+}
+
+.cabecalho .container,
+.rodape .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .logo {
+    max-width: 270px;
+}
+
+.cabecalho .container .menu {
+    display: flex;
+    gap: 35px;
+}
+
+.cabecalho .container .menu li a {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.cabecalho .container .menu li a:hover,
+.rodape .container a:hover {
+    text-decoration: underline;
+}
+
+.quem-somos.container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quem-somos .logo {
+    max-width: 450px;
+}
+
+.quem-somos p {
+    max-width: 400px;
+    font-size: 1.4rem;
+}
+
+.rodape {
+ flex-shrink: 0;
+}
