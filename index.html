@@ -27,7 +27,7 @@
                 title="Acrílico Vitória">
             <nav>
                 <ul class="menu">
-                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a class="selecionado" href="#quem-somos">Quem Somos</a></li>
                     <li><a href="#nossos-clientes">Nossos Clientes</a></li>
                     <li><a href="#produtos">Produtos</a></li>
                 </ul>
@@ -36,23 +36,74 @@
     </header>
 
     <main class="conteudo-principal">
-        <section class="quem-somos container">
+        <section class="quem-somos container" id="quem-somos">
             <img class="logo" src="src/images/logo-body.png" alt="logo cinza e azul acrílico vitória"
                 title="Acrílico Vitória">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore dolorum dignissimos fuga nostrum
                 neque maiores harum molestias quibusdam nihil non, est odio exercitationem corrupti, unde similique
                 doloribus possimus, officiis dolore!
+                <br>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vitae quis provident dolor cupiditate?
-                Consequuntur incidunt minus nisi, hic aliquam rerum, molestias, amet saepe et corrupti sint unde
-                numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed natus dolorum fugit molestias
-                autem cupiditate sapiente recusandae,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                asperiores nobis praesentium, soluta accusamus quia temporibus velit debitis ipsa consequatur laboriosam
-                beatae doloribus, assumenda quis. Ad magni maxime quas nesciunt!
+                Consequuntur incidunt minus nisi, hic aliquam rerum, molestias,
             </p>
         </section>
 
-        <section class="nossos-clientes container"></section>
-        <section class="produtos container"></section>
+        <section class="nossos-clientes container" id="nossos-clientes">
+            <div class="setas">
+                <img src="src/images/seta-esquerda.png" alt="seta para a esquerda" class="seta-esquerda opacidade">
+
+                <div class="paineis">
+                    <img src="src/images/cliente1.jpeg" alt="fachada de comércio" class="imagem painel1 mostrar">
+                    <img src="src/images/cliente1.jpeg" alt="fachada de comércio" class="imagem painel2">
+                    <img src="src/images/cliente1.jpeg" alt="fachada de comércio" class="imagem painel3">
+                    <img src="src/images/cliente1.jpeg" alt="fachada de comércio" class="imagem painel4">
+                    <!-- <img src="" alt="fachada de comércio" class="imagem painel5">
+                    <img src="" alt="fachada de comércio" class="imagem painel6">
+                    <img src="" alt="fachada de comércio" class="imagem painel7">
+                    <img src="" alt="fachada de comércio" class="imagem painel8"> -->
+                </div>
+
+                <img src="src/images/seta-direita.png" alt="seta para a direita" class="seta-direita">
+            </div>
+
+            <div class="logo-clientes">
+                <img src="src/images/logo-chocolatier.svg" alt="logo Le Chocolatier" class="logo1">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo2">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo3">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo4">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo5">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo6">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo7">
+                <img src="src/images/logo-chocolatier.svg" alt="" class="logo8">
+            </div>
+        </section>
+
+        <section class="produtos container" id="produtos">
+            <div class="produto">
+                <img src="src/images/cliente1.jpeg" alt="" class="produto1">
+                <p>Troféus</p>
+
+                <div class="produto">
+                    <img src="src/images/cliente1.jpeg" alt="" class="produto1">
+                    <p>Troféus</p>
+                </div>
+
+                <div class="produto">
+                    <img src="src/images/cliente1.jpeg" alt="" class="produto1">
+                    <p>Troféus</p>
+                </div>
+
+                <div class="produto">
+                    <img src="src/images/cliente1.jpeg" alt="" class="produto1">
+                    <p>Troféus</p>
+                </div>
+
+                <div class="produto">
+                    <img src="src/images/cliente1.jpeg" alt="" class="produto1">
+                    <p>Troféus</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="rodape">
@@ -63,14 +114,12 @@
             </div>
             <div class="telefones">
                 <i class="fa-solid fa-phone"></i>
-                <div class="numeros-telefone">
-                    <p>27 3019-0203</p>
-                    <p>27 9 9890-7075</p>
-                </div>
+                <p>27 3019-0203 27 9 9890-7075</p>
             </div>
+
             <div class="email">
                 <i class="fa-solid fa-envelope"></i>
-                <a href="" target="_blank">COLOCAR EMAIL AQUI</a>
+                <a href="mailto:contato@acrilicovitoria.com.br" target="_blank">contato@acrilicovitoria.com.br</a>
             </div>
             <div class="redes-sociais">
                 <a href="https://www.instagram.com/acrilicovitoria/" target="_blank">
