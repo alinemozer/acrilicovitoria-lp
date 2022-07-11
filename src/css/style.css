@@ -115,7 +115,7 @@ body {
     cursor: pointer;
 }
 
-.nossos-clientes .seta-esquerda.opacidade {
+.nossos-clientes .seta-esquerda {
     width: 25px;
     position: absolute;
     left: 5%;    
