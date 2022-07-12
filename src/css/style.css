@@ -50,11 +50,16 @@ body {
     max-width: 270px;
 }
 
-.cabecalho .container nav i {
-    font-size: 3.5rem;
-    width: 35px;
-    height: 35px;
-    
+.cabecalho .container nav {
+    display: flex;
+}
+
+.cabecalho .container nav .mobile-btn {
+    display: none;
+}
+
+.cabecalho .container nav .mobile-btn.ativo {
+    transform: rotate(90deg);
 }
 
 .cabecalho .container .menu {

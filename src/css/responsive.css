@@ -43,5 +43,18 @@
 }
 
 @media(max-width: 850px) {
-    
+    .cabecalho .container nav .mobile-btn {
+        display: block;
+    }
+
+    .cabecalho .container .menu {
+        display: none;
+        position: absolute;
+        bottom: 150px;
+        width: 100%;
+    }
+
+    .cabecalho .container .menu.ativo {
+        display: block;
+    }
 }
