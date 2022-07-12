@@ -12,7 +12,6 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .conteudo-principal {
@@ -26,6 +25,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 .cabecalho,
@@ -36,6 +36,7 @@ body {
     overflow: hidden;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .cabecalho .container,
@@ -47,6 +48,13 @@ body {
 
 .cabecalho .logo {
     max-width: 270px;
+}
+
+.cabecalho .container nav i {
+    font-size: 3.5rem;
+    width: 35px;
+    height: 35px;
+    
 }
 
 .cabecalho .container .menu {
@@ -71,6 +79,7 @@ body {
 .quem-somos.container {
     max-width: 1100px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 70px;
     min-height: 100vh;
@@ -85,18 +94,33 @@ body {
     font-size: 1.6rem;
 }
 
-.seta-indicativa {
+.quem-somos .seta-indicativa {
     font-size: 35px;
     color: #007e9a;
     position: absolute;
-} 
+    bottom: 100px;
+    left: 50%;
+    animation: arrow 0.6s infinite alternate ease-in-out;
+}
 
-.nossos-clientes {
+@-webkit-keyframes arrow {
+    0% {
+        -webkit-transform: translateY(0);
+        opacity: 0.4;
+    }
+
+    100% {
+        -webkit-transform: translateY(0.4em);
+        opacity: 0.9;
+    }
+}
+
+.nossos-clientes.container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    z-index: -1;
 }
 
 .nossos-clientes .paineis img {
@@ -112,24 +136,26 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+}
+
+.nossos-clientes .seta-esquerda,
+.nossos-clientes .seta-direita {
     cursor: pointer;
+    width: 25px;
+    position: absolute;
 }
 
 .nossos-clientes .seta-esquerda {
-    width: 25px;
-    position: absolute;
-    left: 5%;    
-    cursor: pointer;
+    left: 5%;
 }
 
-.nossos-clientes .seta-esquerda.opacidade {
+.nossos-clientes .seta-esquerda.seta-desabilitada {
     opacity: .4;
+    pointer-events: none;
 }
 
 .nossos-clientes .seta-direita {
-    width: 25px;
-    position: absolute;
-    right: 5%;    
+    right: 5%;
 }
 
 .nossos-clientes .logo-clientes {
@@ -162,7 +188,7 @@ body {
     gap: 30px;
 }
 
- .produtos .produto {
+.produtos .produto {
     display: flex;
     width: 220px;
     flex-direction: column;
