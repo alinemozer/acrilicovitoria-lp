@@ -52,6 +52,8 @@ body {
 
 .cabecalho .container nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho .container nav .mobile-btn {

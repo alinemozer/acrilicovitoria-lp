@@ -43,15 +43,21 @@
 }
 
 @media(max-width: 850px) {
+.cabecalho .container {
+    position: relative;
+}
+
     .cabecalho .container nav .mobile-btn {
         display: block;
     }
 
     .cabecalho .container .menu {
-        display: none;
+        display: block;
         position: absolute;
-        bottom: 150px;
+        top: 1%;
+        right: 0;
         width: 100%;
+        background-color: red;
     }
 
     .cabecalho .container .menu.ativo {
