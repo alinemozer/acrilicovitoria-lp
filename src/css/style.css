@@ -185,6 +185,7 @@ body {
 
 .produtos {
     min-height: 80vh;
+    position: relative;
 }
 
 .produtos .itens {
@@ -215,6 +216,15 @@ body {
 .produtos .produto img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.seta-indicativa {
+    font-size: 20px;
+    color: #007e9a;
+    position: absolute;
+    bottom: 70px;
+    right: 50%;
+    animation: arrow 0.6s infinite alternate ease-in-out;
 }
 
 .produto p {
