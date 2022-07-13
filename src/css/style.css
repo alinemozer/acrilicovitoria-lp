@@ -98,7 +98,8 @@ body {
 
 .quem-somos p {
     max-width: 450px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-style: italic;
 }
 
 .quem-somos .seta-indicativa {
