@@ -43,24 +43,56 @@
 }
 
 @media(max-width: 850px) {
-.cabecalho .container {
-    position: relative;
-}
+    .cabecalho, .rodape {
+        overflow: inherit;
+    }
+
+    .cabecalho .container {
+        position: relative;
+    }
+
+    .cabecalho .logo{
+        max-width: 200px;
+    }
 
     .cabecalho .container nav .mobile-btn {
         display: block;
+        transition: .6s;
     }
 
     .cabecalho .container .menu {
         display: block;
         position: absolute;
-        top: 1%;
-        right: 0;
+        top: 89px;
+        left: 0;
         width: 100%;
-        background-color: red;
+        height: 0;
+        background-color: #007e9a;
+        visibility: hidden; 
+        overflow-y: hidden;
+        transition: .6s;
+        z-index: 1000;
     }
 
-    .cabecalho .container .menu.ativo {
-        display: block;
+    .cabecalho .container nav.ativo .menu {
+        visibility: visible;
+        height: 100vh;
+        width: 100vw;
+        overflow-y: auto;
+    }
+
+    .cabecalho .container .menu li {
+        padding: 20px 15px;
+        margin: 0 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.255);
+    }
+
+    .cabecalho .container .menu li a {
+        padding: 10px 15px;
+    }
+
+    .cabecalho .container .menu li a:hover {
+        background-color: rgba(255, 255, 255, 0.255);
+        text-decoration: none;
     }
 }

@@ -71,11 +71,11 @@ body {
 
 .cabecalho .container .menu li a {
     font-size: 1.5rem;
-    padding: 5px;
+    padding: 10px 15px;
 }
 
 .cabecalho .container .menu li a.selecionado {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.255);
 }
 
 .cabecalho .container .menu li a:hover,
