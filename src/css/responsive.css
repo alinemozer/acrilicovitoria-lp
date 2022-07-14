@@ -45,7 +45,6 @@
 }
 
 @media(max-width: 850px) {
-
     .cabecalho,
     .rodape {
         overflow: inherit;
@@ -57,6 +56,10 @@
 
     .cabecalho .logo {
         max-width: 200px;
+    }
+
+    .mobile-btn {
+        width: 45px;
     }
 
     .cabecalho .container nav .mobile-btn {
