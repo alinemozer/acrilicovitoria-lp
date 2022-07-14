@@ -147,33 +147,6 @@ body {
     display: block;
 }
 
-.nossos-clientes .setas {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.nossos-clientes .seta-esquerda,
-.nossos-clientes .seta-direita {
-    cursor: pointer;
-    width: 25px;
-    position: absolute;
-}
-
-.nossos-clientes .seta-esquerda {
-    left: 5%;
-}
-
-.nossos-clientes .seta-esquerda.seta-desabilitada,
-.seta-direita.seta-desabilitada {
-    opacity: .4;
-    pointer-events: none;
-}
-
-.nossos-clientes .seta-direita {
-    right: 5%;
-}
-
 .nossos-clientes .logo-clientes {
     max-width: 500px;
     display: flex;
@@ -184,7 +157,15 @@ body {
 .nossos-clientes .logo-clientes img {
     max-width: 200px;
     padding: 10px 0;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
 }
+
+.nossos-clientes .logo-clientes img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+} 
 
 .nossos-clientes .logo-clientes .logo3,
 .logo6 {
