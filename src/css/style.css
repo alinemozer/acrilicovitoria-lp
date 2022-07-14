@@ -25,7 +25,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 25px;
+
 }
 
 .cabecalho,
@@ -88,7 +88,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 70px;
+    gap: 150px;
     min-height: 100vh;
 }
 
@@ -129,7 +129,7 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    gap: 70px;
+    gap: 80px;
 }
 
 .nossos-clientes .paineis .painel {
@@ -164,7 +164,8 @@ body {
     left: 5%;
 }
 
-.nossos-clientes .seta-esquerda.seta-desabilitada {
+.nossos-clientes .seta-esquerda.seta-desabilitada,
+.seta-direita.seta-desabilitada {
     opacity: .4;
     pointer-events: none;
 }
@@ -248,12 +249,12 @@ body {
 .rodape .localizacao i,
 .rodape .telefones i,
 .rodape .email i {
-    margin: 0 8px 0 0;
+    margin: 0 10px 0 0;
     font-size: 1.8rem;
 }
 
 .rodape .localizacao {
-    max-width: 300px;
+    max-width: 270px;
 }
 
 .rodape .telefones {
