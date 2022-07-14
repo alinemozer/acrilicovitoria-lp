@@ -3,7 +3,7 @@
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        column-gap: 0;
+        gap: 45px;
         min-height: 0;
         margin: 180px 25px 100px;
     }
@@ -70,7 +70,7 @@
     .cabecalho .container .menu {
         display: block;
         position: absolute;
-        top: 89px;
+        top: 65px;
         left: -35px;
         width: 100vw;
         height: 0;
@@ -113,7 +113,7 @@
     }
 
     .nossos-clientes .logo-clientes img {
-        max-width: 100px;
+        max-width: 150px;
     }
 
     .nossos-clientes .logo-clientes .logo3,
