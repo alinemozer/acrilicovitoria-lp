@@ -103,10 +103,10 @@ body {
 }
 
 .quem-somos .seta-indicativa {
-    font-size: 35px;
+    font-size: 30px;
     color: #007e9a;
     position: absolute;
-    bottom: 100px;
+    bottom: 85px;
     left: 50%;
     animation: arrow 0.6s infinite alternate ease-in-out;
 }
@@ -129,14 +129,15 @@ body {
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
+    gap: 70px;
 }
 
-.nossos-clientes .paineis img {
+.nossos-clientes .paineis .painel {
     max-width: 530px;
     display: none;
 }
 
-.nossos-clientes .paineis .painel1.mostrar {
+.nossos-clientes .painel.mostrar {
     display: block;
 }
 
@@ -174,7 +175,7 @@ body {
 }
 
 .nossos-clientes .logo-clientes img {
-    width: 200px;
+    max-width: 200px;
     padding: 10px 0;
 }
 
@@ -185,7 +186,6 @@ body {
 
 .produtos {
     min-height: 80vh;
-    position: relative;
 }
 
 .produtos .itens {
@@ -216,15 +216,6 @@ body {
 .produtos .produto img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-.seta-indicativa {
-    font-size: 20px;
-    color: #007e9a;
-    position: absolute;
-    bottom: 70px;
-    right: 50%;
-    animation: arrow 0.6s infinite alternate ease-in-out;
 }
 
 .produto p {
