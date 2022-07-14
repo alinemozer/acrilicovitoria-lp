@@ -134,13 +134,7 @@ body {
 
 .nossos-clientes .paineis .painel {
     max-width: 530px;
-    height: 350px;
     display: none;
-}
-
-.nossos-clientes .paineis .painel {
-    min-width: 100%;
-    height: 100%;
 }
 
 .nossos-clientes .painel.mostrar {
