@@ -5,7 +5,7 @@
         justify-content: center;
         gap: 45px;
         min-height: 0;
-        margin: 180px 25px 100px;
+        margin: 170px 25px 100px;
     }
 
     .quem-somos .seta-indicativa {
@@ -107,9 +107,9 @@
         max-width: 250px;
     }
 
-    .nossos-clientes .paineis .painel {
+    .nossos-clientes .paineis img {
         max-width: 350px;
-        gap: 0;
+        padding: 0 15px;
     }
 
     .nossos-clientes .logo-clientes img {

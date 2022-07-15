@@ -132,7 +132,7 @@ body {
     gap: 80px;
 }
 
-.nossos-clientes .paineis .painel {
+.nossos-clientes .paineis img {
     max-width: 530px;
     display: none;
 }
@@ -149,13 +149,13 @@ body {
 }
 
 .nossos-clientes .logo-clientes img {
-    max-width: 200px;
+    width: 200px;
     padding: 10px 0;
     -webkit-transition: -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
 }
 
-.nossos-clientes .logo-clientes img:hover {
+.nossos-clientes .logo-painel:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     cursor: pointer;
