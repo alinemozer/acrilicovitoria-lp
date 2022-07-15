@@ -5,18 +5,26 @@
         justify-content: center;
         gap: 45px;
         min-height: 0;
-        margin: 170px 25px 100px;
+        margin: 170px 25px 70px;
     }
 
     .quem-somos .seta-indicativa {
         display: none;
     }
 
+    .titulo1,
+    .titulo2 {
+        margin: 0 0 35px;
+    }
+
     .nossos-clientes.container {
+        margin: 70px 25px 100px;
+    }
+
+    .nossos-clientes .conteudo {
         flex-direction: column;
         justify-content: center;
         min-height: 0;
-        margin: 0 25px 100px;
         gap: 0;
     }
 
@@ -26,7 +34,7 @@
 
     .produtos {
         min-height: 0;
-        margin: 0 15px 100px;
+        margin: 50px 15px 100px;
     }
 
     .produtos .produto {
@@ -49,6 +57,7 @@
 }
 
 @media(max-width: 850px) {
+
     .cabecalho,
     .rodape {
         overflow: inherit;
@@ -107,8 +116,13 @@
 }
 
 @media(max-width: 560px) {
-    .quem-somos .logo {
+    .quem-somos .logo-cinza {
         max-width: 250px;
+    }
+
+    .titulo1,
+    .titulo2 {
+        font-size: 35px;
     }
 
     .nossos-clientes .paineis img {

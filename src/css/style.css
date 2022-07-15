@@ -181,6 +181,14 @@ body {
     margin: 0 100px;
 }
 
+.produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 100px;
+}
+
 .produtos .itens {
     display: flex;
     flex-wrap: wrap;
@@ -188,6 +196,7 @@ body {
     align-items: center;
     max-width: 800px;
     gap: 30px;
+    margin: 0 0 70px;
 }
 
 .produtos .produto {
@@ -219,11 +228,12 @@ body {
 
 .produtos .orcamento-btn {
     font-size: 1.5rem;
-    padding: 15px 70px;
+    padding: 15px 20px;
     background-color: #007e9a;
     border-radius: 10px;
-    margin: 50px auto 120px;
     transition: .3s ease-in-out;
+    text-align: center;
+    width: 250px;
 }
 
 .produtos .orcamento-btn:hover {
