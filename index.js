@@ -27,3 +27,10 @@ logoClientes.forEach( (item, index) => {
        painelClienteImagemLogo.src = `./src/images/cliente${index}.jpeg`
     })
 });
+
+ScrollReveal().reveal('.logo', { delay: 300 });
+ScrollReveal().reveal('.paragrafo', { delay: 600 });
+ScrollReveal().reveal('.fa-arrow-down', { delay: 900 });
+ScrollReveal().reveal('.logo-clientes', { delay: 300 });
+ScrollReveal().reveal('.paineis', { delay: 600 });
+ScrollReveal().reveal('.produto', { delay: 500 });
