@@ -17,11 +17,6 @@
 
     <script src="https://kit.fontawesome.com/06de1411f7.js" crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
-
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
@@ -47,9 +42,10 @@
 
     <main class="conteudo-principal">
         <section class="quem-somos container" id="quem-somos">
-            <img class="logo" src="src/images/logo-body.png" alt="logo cinza e azul acrílico vitória"
+            <img class="logo-cinza" src="src/images/logo-body.png" alt="logo cinza e azul acrílico vitória"
                 title="Acrílico Vitória">
-            <p class="paragrafo">&emsp;Somos uma empresa 100% capixaba, especializada em produção de peças em Acrílico, ACM e
+            <p class="paragrafo">&emsp;Somos uma empresa 100% capixaba, especializada em produção de peças em Acrílico,
+                ACM e
                 Policarbonato,
                 trabalhamos com a matéria prima 100% virgem, de primeira qualidade.
                 Com esses materiais nobres, que reúnem as características de moldagem e a leveza do plástico, a
@@ -66,23 +62,29 @@
         </section>
 
         <section class="nossos-clientes container" id="nossos-clientes">
-            <div class="paineis">
-                <img src="src/images/cliente0.jpeg" alt="fachada de comércio" class="painel painel1 mostrar">
-            </div>
+            <h2 class="titulo1">Nossos Clientes</h2>
 
-            <div class="logo-clientes">
-                <img src="src/images/logo-chocolatier.svg" alt="logo Le Chocolatier" class="logo-painel">
-                <img src="src/images/pharmic-logo.png" alt="logo Pharmic" class="logo-painel">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo3">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo4">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo5">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo6">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo7">
-                <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo8">
+            <div class="conteudo">
+                <div class="paineis">
+                    <img src="src/images/cliente0.jpeg" alt="fachada de comércio" class="painel painel1 mostrar">
+                </div>
+
+                <div class="logo-clientes">
+                    <img src="src/images/logo-chocolatier.svg" alt="logo Le Chocolatier" class="logo-painel">
+                    <img src="src/images/pharmic-logo.png" alt="logo Pharmic" class="logo-painel">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo3">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo4">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo5">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo6">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo7">
+                    <img src="src/images/logo-chocolatier.svg" alt="" class="logo-painel logo8">
+                </div>
             </div>
         </section>
 
         <section class="produtos" id="produtos">
+            <h2 class="titulo2">Produtos</h2>
+
             <div class="itens">
                 <div class="produto">
                     <img src="src/images/cliente1.jpeg" alt="" class="produto1">
@@ -108,6 +110,8 @@
                     <img src="src/images/cliente1.jpeg" alt="" class="produto5">
                     <p>Troféus</p>
                 </div>
+
+                <a href="https://api.whatsapp.com/send?phone=5527998907075" target="_blank" class="orcamento-btn">Solicite seu orçamento</a>
             </div>
         </section>
     </main>
@@ -138,7 +142,11 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>

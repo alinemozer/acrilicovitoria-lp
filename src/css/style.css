@@ -25,7 +25,16 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
 
+.titulo1,
+.titulo2 {
+    font-size: 45px;
+    opacity: .4;
+    color: #007e9a;
+    font-style: italic;
+    margin: 0 0 75px;
+    text-align: center;
 }
 
 .cabecalho,
@@ -92,11 +101,11 @@ body {
     min-height: 100vh;
 }
 
-.quem-somos .logo {
+.quem-somos .logo-cinza {
     max-width: 450px;
 }
 
-.quem-somos p {
+.quem-somos .paragrafo {
     max-width: 450px;
     font-size: 1.4rem;
     font-style: italic;
@@ -124,11 +133,14 @@ body {
 }
 
 .nossos-clientes.container {
+    margin: 150px 0 200px;
+}
+
+.nossos-clientes .conteudo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
     gap: 80px;
 }
 
@@ -139,6 +151,11 @@ body {
 
 .nossos-clientes .painel.mostrar {
     display: block;
+    transition: opacity .6s ease-in-out;
+}
+
+.nossos-clientes .painel.mostrar.transparente {
+    opacity: 0;
 }
 
 .nossos-clientes .logo-clientes {
@@ -151,23 +168,17 @@ body {
 .nossos-clientes .logo-clientes img {
     width: 200px;
     padding: 10px 0;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
+    transition: transform .1s ease-in-out;
 }
 
 .nossos-clientes .logo-painel:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
     cursor: pointer;
-} 
+}
 
 .nossos-clientes .logo-clientes .logo3,
 .logo6 {
     margin: 0 100px;
-}
-
-.produtos {
-    min-height: 80vh;
 }
 
 .produtos .itens {
@@ -204,6 +215,19 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 10px 0 0;
+}
+
+.produtos .orcamento-btn {
+    font-size: 1.5rem;
+    padding: 15px 70px;
+    background-color: #007e9a;
+    border-radius: 10px;
+    margin: 50px auto 120px;
+    transition: .3s ease-in-out;
+}
+
+.produtos .orcamento-btn:hover {
+    opacity: .6;
 }
 
 .rodape {
