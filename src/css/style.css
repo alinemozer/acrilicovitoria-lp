@@ -209,8 +209,6 @@ body {
 }
 
 .produtos .produto img {
-    width: 100%;
-    height: 100%;
     -webkit-transition: -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
 }
@@ -223,7 +221,7 @@ body {
 .produto p {
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 10px 0 0;
+    margin: 15px 0 0;
 }
 
 .produtos .orcamento-btn {

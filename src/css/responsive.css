@@ -24,7 +24,6 @@
     .nossos-clientes .conteudo {
         flex-direction: column;
         justify-content: center;
-        min-height: 0;
         gap: 0;
     }
 
@@ -57,7 +56,6 @@
 }
 
 @media(max-width: 850px) {
-
     .cabecalho,
     .rodape {
         overflow: inherit;
@@ -137,5 +135,9 @@
     .nossos-clientes .logo-clientes .logo3,
     .logo6 {
         margin: 0 50px;
+    }
+
+    .produtos .produto img {
+        width: 250px;
     }
 }
