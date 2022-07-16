@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans';
     font-weight: 500;
     font-size: 62.5%;
-    background-color: #f7f7f7;
+    background-color: #f1f1f1;
     color: #484848;
     height: 100%;
     scroll-behavior: smooth;
@@ -146,7 +146,8 @@ body {
 }
 
 .nossos-clientes .paineis img {
-    max-width: 530px;
+    max-width: 630px;
+    height: 450px;
     display: none;
 }
 
@@ -161,9 +162,8 @@ body {
 
 .nossos-clientes .logo-clientes {
     max-width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 10px;
+    text-align: center;
 }
 
 .nossos-clientes .logo-clientes img {
@@ -179,7 +179,7 @@ body {
 
 .nossos-clientes .logo-clientes .logo3,
 .logo6 {
-    margin: 0 70px;
+    margin: 0 100px;
 }
 
 .produtos {
