@@ -34,11 +34,11 @@ logoClientes.forEach( (item, index) => {
     item.addEventListener('click', function(){
         setTimeout(() => {
             painelClienteImagemLogo.classList.add('transparente') 
-        }, 100)
+        }, 200)
         setTimeout(() =>{
             painelClienteImagemLogo.src = `./src/images/cliente${index}.jpeg`
             painelClienteImagemLogo.classList.remove('transparente') 
-        }, 450)
+        }, 500)
     })
 });
 

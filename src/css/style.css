@@ -135,6 +135,7 @@ body {
 
 .nossos-clientes.container {
     margin: 150px 0 200px;
+    background-color: #007e9a;
 }
 
 .nossos-clientes .conteudo {
@@ -145,9 +146,14 @@ body {
     gap: 80px;
 }
 
+.nossos-clientes .paineis {
+    width: 650px;
+    height: 450px;
+}
+
 .nossos-clientes .paineis img {
-    max-width: 630px;
-    display: none;
+    min-width: 100%;
+    height: 100%;
 }
 
 .nossos-clientes .painel.mostrar {

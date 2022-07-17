@@ -113,6 +113,13 @@
     }
 }
 
+@media(max-width: 685px) {
+    .nossos-clientes .paineis {
+        width: 450px;
+        height: 350px;
+    }   
+}
+
 @media(max-width: 560px) {
     .quem-somos .logo-cinza {
         max-width: 250px;
@@ -123,10 +130,10 @@
         font-size: 35px;
     }
 
-    .nossos-clientes .paineis img {
-        max-width: 350px;
-        padding: 0 15px;
-    }
+    .nossos-clientes .paineis {
+        width: 280px;
+        height: 180px;
+    } 
 
     .nossos-clientes .logo-clientes img {
         max-width: 150px;
