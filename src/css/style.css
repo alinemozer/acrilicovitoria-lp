@@ -106,10 +106,14 @@ body {
     max-width: 450px;
 }
 
-.quem-somos .paragrafo {
+.quem-somos .paragrafos {
     max-width: 450px;
     font-size: 1.4rem;
     font-style: italic;
+}
+
+.quem-somos .paragrafo:first-child {
+    margin: 0 0 20px;
 }
 
 .quem-somos .seta-indicativa {
